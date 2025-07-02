@@ -5,13 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Modern Web Experience</title>
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
+  <div class="background-animation">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-brand">WebApp</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="gradient-text">Revolutionary</span>
+          <br>Web Experience
+        </h1>
+        <p class="hero-subtitle">
+          次世代のWebアプリケーションで、あなたのビジョンを現実に変えましょう
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Get Started</button>
+          <button class="btn btn-secondary">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">Amazing Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🚀</div>
+            <h3>Lightning Fast</h3>
+            <p>最新の技術スタックで構築された高速なWebアプリケーション</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Beautiful Design</h3>
+            <p>モダンでスタイリッシュなUIデザインでユーザー体験を向上</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Responsive</h3>
+            <p>あらゆるデバイスで完璧に動作するレスポンシブデザイン</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Modern Web Experience. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
